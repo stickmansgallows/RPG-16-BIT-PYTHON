@@ -1,0 +1,273 @@
+Black Magic:
+Spell              Power     Physical  Ign. Def. Unblock   Hit Rate	element	status	targets	side
+Bio                53        No        No        No        120	poison	poison	any en
+Bolt               20        No        No        No        150	bolt	none	any en
+Bolt2             61        No        No        No        150	bolt	none	any en
+Bolt3             120       No        No        No        150	bolt	none	any en
+Break              0         No        No        No        120	none	petrify	one en
+Demi               8         No        No        No        120	earth	half	any en
+Doom               0         No        No        No        95	death	death	one en
+Drain              38        No        No        No        120	none	hpdrain	any en
+Fire               21        No        No        No        150 	fire	none	any en
+Fire2             60        No        No        No        150	fire	none	any en
+Fire3             121       No        No        No        150	fire	none	any en
+Flare              60        No        Yes       No        150	none	none	one en
+Ice                22        No        No        No        150	ice	    none	any en
+Ice2              62        No        No        No        150	ice	    none	any en
+Ice3              122       No        No        No        150	ice	    none	any en
+Merton             138       No        Yes       Yes       n/a	none	none	all en
+Meteor             36        No        Yes       Yes       n/a	none	none	all en
+Pearl              108       No        No        No        150	pearl	none	one en
+Poison             25        No        No        No        100	poison	none	any en
+Quake              111       No        Yes       Yes       n/a	earth	none	allall  all
+Quartr             12        No        No        No        100	earth	quarter	any en
+Ultima             150       No        Yes       Yes       n/a	none	none	all en
+W Wind             15        No        No        No        100	wind	none	allall  all
+X-Zone             0         No        No        No        85	none	death	all en
+Gray Magic:
+Spell              Power     Physical  Ign. Def. Unblock   Hit Rate
+Bserk              0         No        No        No        150	none	berserk	one
+Dispel             0         No        No        Yes       n/a	none	clear	one en
+Float              0         No        No        Yes       n/a	none	float	any self
+Haste              0         No        No        Yes       n/a	none	haste	one self
+Haste2             0         No        No        Yes       n/a	none	haste	all self
+Imp                0         No        No        No        100	none	imp	    any en
+Muddle             0         No        No        No        94	none	muddle	one en
+Mute               0         No        No        No        100	none	mute	one en
+Osmose             26        No        No        No        150	none	mpdrain	any en
+Quick              0         No        No        Yes       n/a	none	quick	one self
+Rasp               10        No        No        No        150	none	mp	    any en
+Rflect             0         No        No        Yes       n/a	none	reflect	one self
+Safe               0         No        No        Yes       n/a	none	safe	one self
+Scan               0         No        No        No        222	none	scan	one en
+Shell              0         No        No        Yes       n/a	none	shell	one self
+Sleep              0         No        No        No        111	none	sleep	one en
+Slow               0         No        No        No        120	none	slow	one en
+Slow2             0         No        No        No        150	none	slow	all en
+Stop               0         No        No        No        100	none	stop	one en
+Vanish             0         No        No        Yes       n/a	none	clear	any self
+Warp               0         No        No        Yes       n/a	none	warp	all self
+White Magic:
+Spell              Power     Physical  Ign. Def. Unblock   Hit Rate
+Antdot             0         No        No        Yes       n/a	life	poison	any self
+Cure               10        No        Yes       Yes       n/a	life	none	any self
+Cure2             28        No        Yes       Yes       n/a	life	none	any self
+Cure3             66        No        Yes       Yes       n/a	life	none	any self
+Life               2         No        Yes       Yes       n/a	life	life	one self
+Life2             16        No        Yes       Yes       n/a	life	life	one self
+Life3             0         No        No        Yes       n/a	life	life	one self
+Regen              0         No        No        Yes       n/a	life	regen	any self
+Remedy             0         No        No        Yes       n/a	none	remedy	one self
+Espers:
+Esper              Power     Physical  Ign. Def. Unblock   Hit Rate
+Alexander          114       No        No        Yes       n/a	pearl	none	all en
+Bahamut            92        No        Yes       Yes       n/a	none	none	all en
+Bismark            58        No        No        Yes       n/a	water	none	all en
+Carbunkl           0         No        No        Yes       n/a	none	reflect	all en
+Crusader           190       No        No        Yes       n/a	none	none	allall  all
+Fenrir             0         No        No        Yes       n/a	none	image	all en
+Golem              0         No        No        Yes       n/a	earth	none	all self
+Ifrit              51        No        No        Yes       n/a	fire	none	all en
+Kirin              0         No        NO        Yes       n/a	life	regen	all self
+Ramuh              50        No        No        Yes       n/a	bolt	none	all en
+Shiva              52        No        No        Yes       n/a	ice	    none	all en
+Shoat              0         No        No        No        96	none	petrify	all en
+Siren              0         No        No        No        136	none	mute	all en
+Stray              0         No        No        No        n/a	none	muddle	all en
+Maduin             55        No        No        Yes       n/a	none	none	all en
+Odin               0         No        No        No        110	none	death	all en
+Palidor            0         No        Yes       Yes       n/a	none	jump	all self
+Phantom            0         No        No        Yes       n/a	none	clear	all self
+Phoenix            4         No        No        Yes       n/a	life	life	all self
+Ragnarok           0         No        No        No        n/a	none	item	one en
+Raiden             0         No        No        No        140	none	death	all en
+Sraphim            18        No        Yes       Yes       n/a	life	none	all self
+Starlet            34        No        Yes       Yes       n/a	life	none	all self
+Terrato            93        No        No        Yes       150	earth	none	all en
+Tritoch            110       No        No        Yes       n/a	none	none	all en
+Unicorn            0         No        No        Yes       n/a	life	remedy	all self
+Zoneseek           0         No        No        Yes       n/a	none	shell	all en
+SwdTech:
+SwdTech            Power     Physical  Ign. Def. Unblock   Hit Rate
+Dispatch           120       Yes       Yes       Yes       n/a	none	none	one en
+Retort             56        No        Yes       Yes       n/a	none	none	one en
+Slash              8         Yes       No        Yes       n/a	none	none	one en
+Quadra Slam        72        Yes       No        Yes       n/a	none	none	one en
+Empowerer          49        No        Yes       Yes       n/a	none	hpdrain,mpdrain	one en
+Stunner            97        No        No        Yes       140	none	stop	all en
+Quadra Slice       70        Yes       Yes       Yes       n/a	none	none	one en
+Cleave             0         No        Yes       No        182 	none	death	all en
+Blitzes:
+Blitz              Power     Physical  Ign. Def. Unblock   Hit Rate
+Pummel             110       Yes       Yes       Yes       n/a	none	none	one en
+Aurabolt           68        No        No        Yes       n/a	bolt	none	one en
+Suplex             180       Yes       Yes       Yes       n/a	none	none	one en
+Fire Dance         42        No        No        Yes       n/a	fire	none	all en
+Mantra             1         No        Yes       Yes       n/a	life	none	all self
+Air Blade          78        No        No        Yes       n/a	wind	none	all en
+Spiraler           200       No        Yes       Yes       n/a	life	none	all self
+Bum Rush           128       No        Yes       Yes       n/a	none	none	one en
+Dance moves:
+Dance move         Power     Physical  Ign. Def  Unblock    Hit Rate
+Antlion            0         No        No        No         100	earth	none	one en
+Cave In            12        No        No        Yes        n/a	earth	none	one en
+Cockatrice         50        No        Yes       No         96	none	none	one en
+Elf Fire           72        No        No        Yes        n/a	fire	none	one en
+El Nino            61        No        No        Yes        n/a	water	none	one en
+Harvester          0         No        No        Yes        n/a	none	none	one en
+Ice Rabbit         60        No        Yes       Yes        n/a	ice	    none	one en
+Kitty              0         No        No        Yes        n/a	none	none	one en
+Land Slide         65        No        Yes       Yes        n/a	earth	none	one en
+Plasma             70        No        No        Yes        n/a	none	none	one en
+Pois. Frog         56        No        No        Yes        n/a	poison	poison	one en
+Rage               50        No        No        Yes        n/a	none	none	one en
+Sand Storm         45        No        No        Yes        n/a	none	none	all en
+Snare              0         No        No        No         100	none	death	one en
+Snowball           8         No        No        Yes        n/a	ice	    none	one en
+Sonic Boom         10        No        No        Yes        n/a	none	half	one en
+Specter            0         No        No        No         120	fire	none	one en
+Surge              55        No        No        Yes        n/a	none	none	one en
+Sun Bath           50        No        Yes       Yes        n/a	life	none	all self
+Tapir              0         No        No        Yes        n/a	none	remedy	one self
+Whump              53        No        Yes       Yes        n/a	none	none	one en
+Wild Bear          100       No        Yes       Yes        n/a	none	none	one en
+Wind Slash         48        No        No        Yes        n/a	wind	none	all en
+Wombat             88        No        Yes       Yes        n/a	none	none	one en
+Lores:
+Lore               Power     Physical  Ign. Def  Unblock    Hit Rate
+Aero               125       No        No        No         150	wind	none	all en
+Aqua Rake          71        No        No        No         150	water	none	all en
+Big Guard          0         No        No        Yes        n/a	none	safe,shell	one self
+Blow Fish          1         No        Yes       Yes        n/a	none	none	one en
+Cleansweep         50        No        No        No         150	water	none	all en
+Condemned          0         No        No        Yes        n/a	none	condemn	one en
+Dischord           0         No        No        No         100	none	lvlhalf	one en
+Exploder           1         No        Yes       Yes        n/a	none	none	one en
+ForceField         0         No        No        Yes        n/a	none	none	one self
+GrandTrain         84        No        Yes       Yes        n/a	none	none	all en
+L.3 Muddle         0         No        No        No         n/a	none	muddle	all en
+L.4 Flare          66        No        Yes       No         n/a	none	none	all en
+L.5 Doom           0         No        No        No         n/a	death	death	all en
+L? Pearl           120       No        No        No         n/a pearl	none	all en
+Pearl Wind         1         No        Yes       Yes        n/a	life	none	all self
+Pep Up             16        No        No        Yes        n/a	life	none	one self
+Quasar             57        No        Yes       Yes        n/a	none	none	one en
+Reflect???         0         No        No        Yes        n/a	none	none	all en
+Revenge            1         No        Yes       Yes        n/a	none	none	one en
+Rippler            0         No        No        No         111	none	trade	all en
+Roulette           0         No        No        Yes        n/a	none	death	all all
+Sour Mouth         0         No        No        No         100	none	poison,muddle,berserk,slow,dark,imp	all en
+Step Mine          32        No        Yes       Yes        n/a	none	none	one en
+Stone              40        No        No        No         75	none	none	one en
+Magitek:
+Attack             Power     Physical  Ign. Def  Unblock    Hit Rate
+Bio Blast          60        No        No        Yes        n/a	poison	poison	all
+Bolt Beam          62        No        No        Yes        n/a	bolt	none	one
+Confuser           0         No        No        No         128	none	muddle	one
+Fire Beam          60        No        No        Yes        n/a	fire	none	one
+Heal Force         50        No        Yes       Yes        n/a	life	none	one
+Ice Beam           61        No        No        Yes        n/a	ice	none	one
+TekMissile         58        No        Yes       Yes        n/a	none	none	one
+X-Fer              0         No        No        No         120	none	death	one
+Desparation attacks:
+Attack             Power     Physical  Ign. Def  Unblock    Hit Rate
+Back Blade         140       No        Yes       Yes        n/a	none	none	all
+Mirager            139       No        Yes       Yes        n/a	none	none	all
+MoogleRush         150       No        Yes       Yes        n/a	none	none	all
+Red Card           147       No        Yes       Yes        n/a	none	none	all
+Riot Blade         142       No        Yes       Yes        n/a	none	none	all
+Royal Shock        143       No        Yes       Yes        n/a	none	none	all
+SabreSoul          0         No        No        Yes        n/a	none	death	all
+ShadowFang         140       No        Yes       Yes        n/a	none	none	all
+Spin Edge          143       No        Yes       Yes        n/a	none	none	all
+StarPrism          0         No        No        Yes        n/a	none	death	all
+TigerBreak         140       No        Yes       Yes        n/a	none	none	all
+X-Meteo            146       No        Yes       Yes        n/a	none	none	all
+Miscellaneous:
+Attack             Power     Physical  Ign. Def  Unblock    Hit Rate
+50 Gs              0         No        No        Yes        n/a	none	none	one
+7-Flush            84        No        No        Yes        n/a	none	none	all
+Absolute0         110       No        No        No         140	ice	none	all
+Acid Rain          25        No        No        No         100	none	none	all
+Atomic Ray         80        No        No        No         150	none	none	one
+BabaBreath         0         No        No        Yes        n/a	none	none	all
+Bio Blast          20        No        No        Yes        n/a	poison	poison	all
+Blaster            0         No        No        No         70	none	none	one
+Blaze              68        No        No        No         120	fire	none	one
+Blizzard           25        No        No        No         140	ice	none	all
+Bolt Edge          100       No        No        Yes        n/a	bolt	none	all
+Bomblet            0         No        No        Yes        n/a	none	none	one
+Charm              0         No        No        No         80	none	muddle  one
+Chocobop           36        No        Yes       Yes        n/a	none	none    one
+Chokesmoke         0         No        No        Yes        n/a	none	none    all
+Cold Dust          0         No        No        Yes        n/a	ice	    freeze  one
+Cyclonic           15        No        No        No         75	none	none    any
+Delta Hit          0         No        No        Yes        n/a	none	none    one
+Diffuser           62        No        No        No         150	none	none    all
+Disaster           0         No        No        No         62	none	poison,muddle,berserk,slow,dark,imp    all
+Discard            0         No        No        Yes        n/a	none	none    one
+Dread              0         No        No        No         75	none	none    one
+Engulf             0         No        No        Yes        n/a	none	none    one
+Entwine            0         No        No        Yes        n/a	none	slow    one
+Escape             0         No        No        Yes        n/a	none	escape  one
+Evil Toot          0         No        No        No         120	none	none    all
+Fallen One         0         No        No        Yes        n/a	none	none    all
+Fire Ball          50        No        No        No         150	fire	none    any
+Fire Skean         100       No        No        Yes        n/a	fire	none    all
+Fire Wall          50        No        No        Yes        n/a	fire	none    all
+Flare Star         80        No        Yes       Yes        n/a	none	none    all
+Flash              42        No        No        No         128	none	dark    all
+Flash Rain         60        No        No        No         140	none	none    all
+Gale Cut           15        No        No        Yes        n/a	wind	none    all
+Giga Volt          110       No        No        No         130	bolt	none    any
+Goner              220       No        No        Yes        n/a	none	none    one
+Grav Bomb          8         No        No        No         100	none	none    one
+H-Bomb             130       No        No        Yes        n/a	none	none    one
+Heart Burn         30        No        No        No         120	none	none    one
+HyperDrive         118       No        Yes       Yes        n/a	none	none    one
+Imp Song           0         No        No        No         100	none	imp     one
+Lagomorph          10        No        No        Yes        n/a	none	none    all
+Launcher           8         No        Yes       No         100	none	none    one
+LifeShaver         84        No        No        Yes        n/a	none	hpdrain one
+Lode Stone         12        No        No        Yes        n/a	none	none    one
+Love Token         0         No        No        Yes        n/a	none	muddle  one
+Lullaby            0         No        No        No         90	none	sleep   one
+Magnitude8        100       No        No        No         130	earth	none    all
+Megazerk           0         No        No        Yes        n/a	none	berserk all
+Mega Volt          20        No        No        No         150	bolt	none    any
+Meteo              60        No        Yes       No         80	none	none    all
+Mind Blast         0         No        No        No         110	none	mp      one
+Missile            4         No        No        No         126	none	none    one
+Mute               0         No        No        No         90	none	mute    one
+N. Cross           0         No        No        No         90	ice	    none    all
+Net                0         No        No        No         100	none	stop    one
+Overcast           0         No        No        Yes        n/a	none	none    all
+Phantasm           0         No        No        Yes        n/a	none	none    all
+R. Polarity        0         No        No        Yes        n/a	none	backrow all
+Raid               40        No        No        No         100	none	none    one
+Revenger           0         No        No        Yes        n/a	none	none    one
+S. Cross           120       No        No        No         120	none	none    all
+Scar Beam          28        No        No        Yes        n/a	none	none    one
+Schiller           0         No        No        No         80	none	dark    all
+Seize              0         No        No        Yes        n/a	none	seizure one
+Shimsham           8         No        No        Yes        n/a	none	half    one
+Shock              128       No        No        Yes        n/a	none	none    all
+Shock Wave         25        No        No        No         120	none	none    all
+Shrapnel           120       No        No        No         120	none	none    one
+Slide              75        No        No        Yes        n/a	none	none    one
+Slimer             0         No        No        No         100	none	slow    one
+Sneeze             0         No        No        Yes        n/a	none	escape  one
+Soul Out           0         No        No        Yes        n/a	none	none    one
+Storm              100       No        No        Yes        n/a	none	none    all
+Takedown           55        No        Yes       Yes        n/a	none	none    one
+Targetting         0         No        No        Yes        n/a	none	none    one
+TekBarrier         0         No        No        Yes        n/a	none	shell,safe  one
+Tek Laser          20        No        No        No         150	none	none    one
+Tentacle           146       Yes       No        Yes        n/a	none	none    one
+Train              0         No        No        Yes        n/a	none	muddle  all
+Virite             20        No        No        No         80	none	none    one
+WallChange         0         No        No        Yes        n/a	none	none    one
+Water Edge         100       No        No        Yes        n/a	water	none    all
+Wave Cannon         110       No        No        No        150	water	none    one
+Wild Fang          66        No        Yes       Yes        n/a	none	none    one
+Zinger             0         No        No        Yes        n/a	none	none    one

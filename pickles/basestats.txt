@@ -1,0 +1,181 @@
+*****
+Terra
+*****
+Vigor --------- 31
+Speed --------- 33
+Stamina ------- 28
+Magic Power --- 39
+Battle Power -- 22
+Defense ------- 42
+Evade --------- 5%
+Magic Defense - 33
+Magic Block --- 7%
+
+*****
+Locke
+*****
+Vigor --------- 37
+Speed --------- 40
+Stamina ------- 31
+Magic Power --- 28
+Battle Power -- 24
+Defense ------- 46
+Evade --------- 15%
+Magic Defense - 23
+Magic Block --- 2%
+
+*****
+Edgar
+*****
+Vigor --------- 39
+Speed --------- 30
+Stamina ------- 34
+Magic Power --- 29
+Battle Power -- 30
+Defense ------- 50
+Evade --------- 4%
+Magic Defense - 22
+Magic Block --- 1%
+
+*****
+Sabin
+*****
+Vigor --------- 47
+Speed --------- 37
+Stamina ------- 39
+Magic Power --- 28
+Battle Power -- 36
+Defense ------- 53
+Evade --------- 12%
+Magic Defense - 21
+Magic Block --- 4%
+
+*****
+Celes
+*****
+Vigor --------- 34
+Speed --------- 34
+Stamina ------- 31
+Magic Power --- 36
+Battle Power -- 26
+Defense ------- 44
+Evade --------- 7%
+Magic Defense - 31
+Magic Block --- 9%
+
+******
+Shadow
+******
+Vigor --------- 39
+Speed --------- 38
+Stamina ------- 30
+Magic Power --- 33
+Battle Power -- 33
+Defense ------- 47
+Evade --------- 28%
+Magic Defense - 25
+Magic Block --- 9%
+
+****
+Cyan
+****
+Vigor --------- 40
+Speed --------- 28
+Stamina ------- 33
+Magic Power --- 25
+Battle Power -- 35
+Defense ------- 48
+Evade --------- 6%
+Magic Defense - 20
+Magic Block --- 1%
+
+***
+Gau
+***
+Vigor --------- 44
+Speed --------- 38
+Stamina ------- 36
+Magic Power --- 34
+Battle Power -- 109
+Defense ------- 44
+Evade --------- 21%
+Magic Defense - 34
+Magic Block --- 18%
+
+******
+Setzer
+******
+Vigor --------- 36
+Speed --------- 32
+Stamina ------- 32
+Magic Power --- 29
+Battle Power -- 28
+Defense ------- 48
+Evade --------- 9%
+Magic Defense - 26
+Magic Block --- 1%
+
+***
+Mog
+***
+Vigor --------- 29
+Speed --------- 36
+Stamina ------- 26
+Magic Power --- 35
+Battle Power -- 26
+Defense ------- 52
+Evade --------- 10%
+Magic Defense - 36
+Magic Block --- 12%
+
+******
+Strago
+******
+Vigor --------- 28
+Speed --------- 25
+Stamina ------- 19
+Magic Power --- 34
+Battle Power -- 20
+Defense ------- 33
+Evade --------- 6%
+Magic Defense - 27
+Magic Block --- 7%
+
+****
+Relm
+****
+Vigor --------- 26
+Speed --------- 22
+Stamina ------- 22
+Magic Power --- 44
+Battle Power -- 21
+Defense ------- 35
+Evade --------- 13%
+Magic Defense - 30
+Magic Block --- 9%
+
+*****
+Umaro
+*****
+Vigor --------- 57
+Speed --------- 33
+Stamina ------- 46
+Magic Power --- 37
+Battle Power -- 198
+Defense ------- 217
+Evade --------- 18%
+Magic Defense - 158
+Magic Block --- 15%
+
+****
+Gogo
+****
+Vigor --------- 25
+Speed --------- 30
+Stamina ------- 20
+Magic Power --- 26
+Battle Power -- 23
+Defense ------- 39
+Evade --------- 10%
+Magic Defense - 25
+Magic Block --- 6%
