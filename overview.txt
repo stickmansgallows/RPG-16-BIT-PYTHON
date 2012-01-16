@@ -1,0 +1,23 @@
+Final Fantasy 6 Python build overview
+
+Part 1: Battles
+    Get graphical battles working with any in game monster(s). Any playable 
+character at any level will be available. All spells and abilities as well.
+Animation will be completed as much as possible.
+
+
+Class Structure
+Spell, Status, Player, Monster, Plunder
+
+Spell accepts the name of a spell or ability upon creation and gets the relevant
+data from the database. Is passed to mattack and contains subparts.
+name, element, status, target, side, power, phys, igdef, unblock, hitrate
+
+Status contains lists and structure pertaining to status effects used by player
+and monster classes
+
+Plunder accepts an array of players and an array of monsters and determines 
+experience, gp, items, ap, and remaining mp and hp of the characters with
+persistant status effects
+
+base64
