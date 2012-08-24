@@ -1,70 +1,67 @@
 import pyglet
-key=pyglet.window.key
-win = pyglet.window.Window()
+from pyglet.window import key
+
+SPEED=100
+midground = pyglet.graphics.OrderedGroup(1)
 
 class Player():
-    def __init__(self, spritesheet):
+    def __init__(self, spritesheet, batch=None):
         sheet = pyglet.image.load(spritesheet)
         sheet._get_gl_format_and_type
-        self.images = pyglet.image.ImageGrid(sheet, 3, 7)
+        self.images = pyglet.image.ImageGrid(sheet, 4, 7)
         self.animation=[]
-        for i in range(3):
+        self.batch=batch
+        for i in range(4):
             self.animation.append(pyglet.image.Animation.from_image_sequence(self.images[1+7*i:7*i+7], 0.1))
-        self.animation.append(self.animation[0].get_transform(flip_x=True))
-        self.sprite = pyglet.sprite.Sprite(self.animation[0])
-        self.sprite.scale=2
+        self.sprite = pyglet.sprite.Sprite(self.animation[0], batch=self.batch, group=midground)
+        self.sprite.scale=1
         self.sprite.rotation=0
         self.sprite.y=50
+        
 
         self.key_handler = key.KeyStateHandler()
         self.event_handlers = [self, self.key_handler]
 
     def update(self, dt):
         if self.key_handler[key.RIGHT]:
-            self.sprite.image = self.animation[0]
             self.sprite.x += dt * SPEED
+            if not self.vert(dt):
+                self.setOnce(1)
         elif self.key_handler[key.LEFT]:
-            self.sprite.image = self.animation[3]
             self.sprite.x -= dt * SPEED
-        if self.key_handler[key.UP]:
-            self.sprite.image = self.animation[1]
-            self.sprite.y += dt * SPEED
-        elif self.key_handler[key.DOWN]:
-            self.sprite.image = self.animation[2]
-            self.sprite.y -= dt * SPEED
+            if not self.vert(dt):
+                self.setOnce(0)
+        else:
+            self.vert(dt)
+            
+        if (not self.key_handler[key.RIGHT] and not self.key_handler[key.LEFT] and not self.key_handler[key.UP] and not self.key_handler[key.DOWN]):
+            for i in range(4):
+                if self.sprite.image == self.animation[i]:
+                    self.sprite.image = self.images[i*7]
+                    break
+
 
     def on_key_press(self, symbol, modifiers):
-        if symbol == key.SPACE:
-            self.sprite.image = self.animation[5]
-            print("HI")
+        pass
         
+    def on_key_release(self, symbol, modifiers):
+        pass
 
+    def setOnce(self, a):
+        if self.sprite.image != self.animation[a]:
+            self.sprite.image = self.animation[a]
 
-
-
-
-@win.event
-def on_draw():
-    win.clear()
-    randi.sprite.draw()
-
-def update(dt):
-    randi.update(dt)
-
-
- 
-
+    def vert(self, dt):
+        if self.key_handler[key.UP]:
+            self.sprite.y += dt * SPEED
+            self.setOnce(2)
+        elif self.key_handler[key.DOWN]:
+            self.sprite.y -= dt * SPEED
+            self.setOnce(3)
+        else:
+            return False
+        return True
 
 if __name__ == "__main__":
-    # Start it up!
-    SPEED=100
-    randi = Player('randimove.png')
-    
-    #keyboard = key.KeyStateHandler()
-    #win.push_handlers(keyboard)
-    # Update the game 120 times per second
-    pyglet.clock.schedule_interval(update, 1/60.0)
-    
-    # Tell pyglet to do its thing
-    pyglet.app.run()
-
+    win = pyglet.window.Window()
+    batch=pyglet.graphics.Batch()
