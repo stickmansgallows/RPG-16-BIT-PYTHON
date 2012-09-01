@@ -3,8 +3,8 @@ import landmap
 from pyglet.window import mouse
     
 if __name__ == "__main__":
-    mainwin = pyglet.window.Window()
-    tilewin = pyglet.window.Window()
+    mainwin = pyglet.window.Window(320,320)
+    tilewin = pyglet.window.Window(160,160)
     mainbatch=pyglet.graphics.Batch()
     sidebatch=pyglet.graphics.Batch()
     test = landmap.Map(mainbatch)
@@ -23,11 +23,14 @@ if __name__ == "__main__":
         
     @mainwin.event
     def on_mouse_press(x,y,button,modifiers):
-        test.tileWrite(x//16,y//16,choice)
+        if button & mouse.LEFT:
+            test.tileWrite(x//16,y//16,choice)
+        if button & mouse.RIGHT:
+            test.save("test")
 
     @mainwin.event
-    def on_mouse_drag(x,y,dx,dy,buttons,modifiers):
-        if buttons & mouse.LEFT:
+    def on_mouse_drag(x,y,dx,dy,button,modifiers):
+        if button & mouse.LEFT:
             test.tileWrite(x//16,y//16,choice)
 
     @tilewin.event
@@ -38,7 +41,10 @@ if __name__ == "__main__":
     @tilewin.event
     def on_mouse_press(x,y,button,modifiers):
         global choice
-        choice = (y//16)*10+(x//16)
-        print(choice)
+        if button & mouse.LEFT:
+            choice = (y//16)*10+(x//16)
+        if button & mouse.RIGHT:
+            test.load("test")
+
     pyglet.app.run()
 

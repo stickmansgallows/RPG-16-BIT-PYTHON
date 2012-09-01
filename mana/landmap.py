@@ -14,7 +14,7 @@ class Map():
             self.tileval=[]
             self.block=[]
             self.batch=batch
-            #self.objects=[]
+            self.objects=[]
             self.sprite=[]
             for i in range(self.x): #Default to grass
                 self.tileval.append([])
@@ -49,10 +49,12 @@ class Map():
         self.tileval = buffer
         file.close()
         """
+        #self.tileval = pickle.load(gzip.open(name+".map", "rb"))
         self.tileval = pickle.load(gzip.open(name+".map", "rb"))
         self.x = len(self.tileval)
         if self.x > 0:
             self.y = len(self.tileval[0])
+        self.updateSprite()
 
     def updateSprite(self):
         self.sprite=[]
